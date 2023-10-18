@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #895737;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workstation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  height: 800px;
+  width: 700px;
+}
+
+.monitor {
+  position: relative;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+}
+
+.screen {
+  position: absolute;
+  background-color: gray;
+  height: 275px;
+  width: 375px;
+  z-index: 2;
+  margin-top: 13px;
+}
+
+.stand-pole {
+  position: absolute;
+  background-color: black;
+  height: 150px;
+  width: 20px;
+  margin-top: 300px;
+}
+
+.stand-base {
+  position: absolute;
+  background-color: black;
+  height: 25px;
+  width: 300px;
+  margin-top: 450px;
+}
