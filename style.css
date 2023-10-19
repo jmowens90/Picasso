@@ -9,7 +9,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #895737;
+  background-color: #073b4c;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: #06d6a0;
   height: 800px;
   width: 700px;
 }
@@ -37,7 +37,7 @@ body {
 
 .screen {
   position: absolute;
-  background-color: gray;
+  background-color: blue;
   height: 275px;
   width: 375px;
   z-index: 2;
@@ -118,4 +118,36 @@ body {
   background-color: white;
   width: 4px;
   height: 50px;
+}
+
+h2 {
+  color: white;
+}
+
+form {
+  color: #06d6a0;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    background-color: yellow;
+  } 
+  h2 {
+    color: black;
+  }
+  form {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .container {
+    background-color: red;
+  } 
+}
+
+@media screen and (min-width: 480px) {
+  .screen {
+    background-color: gray;
+  } 
 }
