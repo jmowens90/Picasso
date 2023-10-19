@@ -16,7 +16,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -50,10 +50,6 @@ img {
   height: 275px;
   width: 375px;
   margin-top: 13px;
-}
-
-.container:hover img {
-  opacity: 1;
 }
 
 .stand-pole {
