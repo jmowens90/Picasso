@@ -144,6 +144,12 @@ form {
   .container {
     background-color: red;
   } 
+  h2 {
+    color: white;
+  }
+  form {
+    color: white;
+  }
 }
 
 @media screen and (min-width: 480px) {
